@@ -5,8 +5,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-lato: var(--font-lato);
-  --font-playfairDisplay: var(--font-playfairDisplay);
+  --font-jost: var(--font-jost);
+  --font-raleway: var(--font-raleway);
 
   /* Terracotta */
   --color-terracotta-50:  #FCEDE9;

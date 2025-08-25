@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
-import { Lato, Playfair_Display } from 'next/font/google';
+import { Jost, Raleway } from 'next/font/google';
 import './globals.css';
 import Providers from './providers';
 import { ConvexClientProvider } from './ConvexClientProvider';
 
-const lato = Lato({
-  variable: '--font-lato',
+const jost = Jost({
+  variable: '--font-Jost',
   subsets: ['latin'],
   weight: ['100', '300', '400', '700', '900'],
 });
 
-const playfairDisplay = Playfair_Display({
-  variable: '--font-playfairDisplay',
+const raleway = Raleway({
+  variable: '--font-raleway',
   subsets: ['latin'],
 });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${lato.variable} ${playfairDisplay.variable} antialiased`}
+        className={`${jost.variable} ${raleway.variable} antialiased`}
       >
           <ConvexClientProvider>
         <Providers>
