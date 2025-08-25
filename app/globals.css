@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-lato: var(--font-lato);
+  --font-playfairDisplay: var(--font-playfairDisplay);
+
+  /* Terracotta */
+  --color-terracotta-50:  #FCEDE9;
+  --color-terracotta-100: #F9D8CF;
+  --color-terracotta-200: #F3B6A6;
+  --color-terracotta-300: #EC927E;
+  --color-terracotta-400: #E57363;
+  --color-terracotta-500: #E07A5F; /* base */
+  --color-terracotta-600: #C85F45;
+  --color-terracotta-700: #A24A36;
+  --color-terracotta-800: #7C3729;
+  --color-terracotta-900: #59261C;
+  --color-terracotta-950: #35140E;
+
+  /* Sand */
+  --color-sand-50:  #FFF8ED;
+  --color-sand-100: #FEF0DA;
+  --color-sand-200: #FDE0B5;
+  --color-sand-300: #FBCF90;
+  --color-sand-400: #F7C072;
+  --color-sand-500: #F2CC8F; /* base */
+  --color-sand-600: #DAA85C;
+  --color-sand-700: #B88949;
+  --color-sand-800: #966B37;
+  --color-sand-900: #6F4C24;
+  --color-sand-950: #432A12;
+
+  /* Sage */
+  --color-sage-50:  #F0F8F4;
+  --color-sage-100: #DCF0E7;
+  --color-sage-200: #B9E0CF;
+  --color-sage-300: #95CFB6;
+  --color-sage-400: #73BFA0;
+  --color-sage-500: #81B29A; /* base */
+  --color-sage-600: #5C8F79;
+  --color-sage-700: #466E5D;
+  --color-sage-800: #325043;
+  --color-sage-900: #20352E;
+  --color-sage-950: #101D19;
+
+  /* Cream */
+  --color-cream-50:  #FDFCF8;
+  --color-cream-100: #FAF8EF;
+  --color-cream-200: #F7F4E5;
+  --color-cream-300: #F4F1DE; /* base */
+  --color-cream-400: #E4E0C9;
+  --color-cream-500: #D5D0B4;
+  --color-cream-600: #B7B293;
+  --color-cream-700: #999573;
+  --color-cream-800: #7A7754;
+  --color-cream-900: #59563A;
+  --color-cream-950: #343223;
+
+  /* Midnight */
+  --color-midnight-50:  #ECECF2;
+  --color-midnight-100: #D9DAE6;
+  --color-midnight-200: #B5B7CD;
+  --color-midnight-300: #8F93B3;
+  --color-midnight-400: #6A6F99;
+  --color-midnight-500: #3D405B; /* base */
+  --color-midnight-600: #34364D;
+  --color-midnight-700: #292B3C;
+  --color-midnight-800: #1E202D;
+  --color-midnight-900: #14151F;
+  --color-midnight-950: #0A0B11;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  font-family: var(--font-lato), sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-playfairDisplay), sans-serif;
+}
+
