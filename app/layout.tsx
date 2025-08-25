@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Lato, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import Providers from './providers';
-import { ConvexClientProvider } from './ConvexClientProvider copy';
+import { ConvexClientProvider } from './ConvexClientProvider';
 
 const lato = Lato({
   variable: '--font-lato',
@@ -16,7 +16,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Wakpon',
+  title: 'Wakpon Bénin',
   description: 'Plateforme Tourisme & Artisanat Béninois',
 };
 
@@ -30,9 +30,11 @@ export default function RootLayout({
       <body
         className={`${lato.variable} ${playfairDisplay.variable} antialiased`}
       >
+          <ConvexClientProvider>
         <Providers>
-          <ConvexClientProvider>{children}</ConvexClientProvider>
+            {children}
         </Providers>
+          </ConvexClientProvider>
       </body>
     </html>
   );

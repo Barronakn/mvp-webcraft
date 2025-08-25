@@ -1,4 +1,4 @@
-# 🌍 Plateforme Tourisme & Artisanat Béninois (Wakpon)
+# 🌍 Plateforme Tourisme & Artisanat Béninois (Wakpon Bénin)
 
 ## 🎯 Vision
 Cette plateforme a pour objectif de **mettre en lumière le patrimoine touristique du Bénin** tout en valorisant **l’artisanat local**.  
@@ -14,6 +14,10 @@ Les utilisateurs pourront explorer les sites touristiques, consulter des itinér
 ### Frontend
 - **Next.js (React + TypeScript)** — Framework moderne, SEO-friendly, SSR/ISR.  
 - **TailwindCSS** — Styling responsive basé sur un design system réutilisable.  
+
+- **shadcn/ui** — Composants UI accessibles et élégants, intégrés à Tailwind.
+
+- **lucide-react** — Icônes légères et personnalisables pour une meilleure UX.
 
 ### Backend / BaaS
 - **Convex** — Gestion des données en temps réel et APIs serverless.  

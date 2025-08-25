@@ -1,7 +1,10 @@
+'use client'
+import Logo from "@/components/logo";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-y-4 justify-center items-center max-w-3xl mx-auto my-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <Logo />
       <h1 className="text-sand-600 text-6xl">Hello world</h1>
       <h2 className="text-midnight-600 text-center text-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h2>
 
