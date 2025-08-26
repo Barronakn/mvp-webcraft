@@ -1,23 +1,14 @@
-<<<<<<< .merge_file_mr7KUb
-@import 'tailwindcss';
-=======
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
->>>>>>> .merge_file_8x4RpQ
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-<<<<<<< .merge_file_mr7KUb
-  --font-jost: var(--font-jost);
-  --font-raleway: var(--font-raleway);
-=======
   --font-jost: "Jost", sans-serif;
   --font-inter:  "Inter", sans-serif;
   --font-raleway: "Raleway", sans-serif;
->>>>>>> .merge_file_8x4RpQ
 
   /* Terracotta */
   --color-terracotta-50: #fcede9;
@@ -46,19 +37,6 @@
   --color-sand-950: #432a12;
 
   /* Sage */
-<<<<<<< .merge_file_mr7KUb
-  --color-sage-50: #f0f8f4;
-  --color-sage-100: #dcf0e7;
-  --color-sage-200: #b9e0cf;
-  --color-sage-300: #95cfb6;
-  --color-sage-400: #73bfa0;
-  --color-sage-500: #81b29a; /* base */
-  --color-sage-600: #5c8f79;
-  --color-sage-700: #466e5d;
-  --color-sage-800: #325043;
-  --color-sage-900: #20352e;
-  --color-sage-950: #101d19;
-=======
   --color-cambridge-green-50:  #F0F8F4;
   --color-cambridge-green-100: #DCF0E7;
   --color-cambridge-green-200: #B9E0CF;
@@ -70,7 +48,6 @@
   --color-cambridge-green-800: #325043;
   --color-cambridge-green-900: #20352E;
   --color-cambridge-green-950: #101D19;
->>>>>>> .merge_file_8x4RpQ
 
   /* Cream */
   --color-cream-50: #fdfcf8;
@@ -147,23 +124,12 @@
 } */
 
 body {
-<<<<<<< .merge_file_mr7KUb
-  font-family: var(--font-jost), sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-raleway), sans-serif;
-=======
   font-family: var(--font-jost);
   scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-raleway);
->>>>>>> .merge_file_8x4RpQ
 }
 
 :root {
@@ -235,16 +201,5 @@ h1, h2, h3, h4 {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-<<<<<<< .merge_file_mr7KUb
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-=======
 
 
->>>>>>> .merge_file_8x4RpQ
