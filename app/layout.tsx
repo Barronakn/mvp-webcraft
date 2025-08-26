@@ -1,19 +1,9 @@
 import type { Metadata } from 'next';
-import { Jost, Raleway } from 'next/font/google';
 import './globals.css';
+import './styles/hero.css'
 import Providers from './providers';
 import { ConvexClientProvider } from './ConvexClientProvider';
 
-const jost = Jost({
-  variable: '--font-Jost',
-  subsets: ['latin'],
-  weight: ['100', '300', '400', '700', '900'],
-});
-
-const raleway = Raleway({
-  variable: '--font-raleway',
-  subsets: ['latin'],
-});
 
 export const metadata: Metadata = {
   title: 'Wakpon Bénin',
@@ -28,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${jost.variable} ${raleway.variable} antialiased`}
+        className={`antialiased`}
       >
           <ConvexClientProvider>
         <Providers>

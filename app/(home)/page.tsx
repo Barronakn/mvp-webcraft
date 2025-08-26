@@ -1,10 +1,10 @@
 'use client'
-import Hero from "./_components/Any";
+import Header from "../components/layout/Header";
 
 export default function Home() {
   return (
-    <div className="">
-      <Hero />
+    <div>
+      <Header />
     </div>
   );
 }
