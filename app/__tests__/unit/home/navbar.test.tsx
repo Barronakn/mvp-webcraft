@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react"
-import Navbar from "@/app/(home)/_components/Navbar"
+import Navbar from "@/app/(home)/_components/header/Navbar"
 
 const pushMock = jest.fn()
 jest.mock("next/navigation", () => ({

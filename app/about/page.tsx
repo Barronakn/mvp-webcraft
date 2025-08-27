@@ -1,6 +1,6 @@
 'use client'
 
-import Navbar from "../(home)/_components/Navbar";
+import Navbar from "../(home)/_components/header/Navbar";
 
 export default function page() {
   return (
