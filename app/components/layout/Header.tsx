@@ -1,13 +1,13 @@
-import Hero from '@/app/(home)/_components/Hero'
-import Navbar from '@/app/(home)/_components/Navbar'
+import Hero from '@/app/(home)/_components/header/Hero'
+import Navbar from '@/app/(home)/_components/header/Navbar'
 import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <Navbar />
       <Hero />
-    </div>
+    </header>
   )
 }
 

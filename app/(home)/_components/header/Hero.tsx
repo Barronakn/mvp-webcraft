@@ -1,7 +1,5 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import shape from '/public/assets/images/shape.png';
@@ -11,6 +9,7 @@ import cardImg3 from '/public/assets/images/goho-square-statue-of.jpg';
 import cardImg4 from '/public/assets/images/mamelle de save.jpg';
 import cardImg5 from '/public/assets/images/slave-route-view-from.jpg';
 import cardImg6 from '/public/assets/images/Temple_des_pythons.jpg.jpeg';
+import BtnAndArrow from '../btnandarrow';
 
 const cardsData = [
   { front: cardImg1, back: cardImg2 },
@@ -55,10 +54,7 @@ const Hero = () => {
           époustouflants et l&apos;artisanat exceptionnel du Bénin.
         </p>
 
-        <Button className="flex mt-6 lg:mt-10 mb-6 lg:mb-16 flex-row gap-x-4 items-center text-2xl lg:text-4xl text-white rounded-full font-semibold transition !py-4 lg:!py-10 !px-8 lg:!px-[5.15625rem]">
-          <span className="font-jost">Commencer l’aventure</span>
-          <ArrowRight className="text-white w-6 h-6 lg:w-7 lg:h-7" />
-        </Button>
+        <BtnAndArrow classname='text-2xl lg:text-4xl !py-5 lg:!py-10 !px-8 lg:!px-[5.15625rem] mt-6 lg:mt-10 mb-6 lg:mb-16' />
       </div>
 
       <div className="w-full lg:w-1/2">

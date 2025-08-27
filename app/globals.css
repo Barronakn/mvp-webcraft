@@ -124,12 +124,12 @@
 } */
 
 body {
-  font-family: var(--font-jost);
+  font-family: "Jost", sans-serif;
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-raleway);
+h1, h2 {
+  font-family: "Raleway", sans-serif;
 }
 
 :root {
