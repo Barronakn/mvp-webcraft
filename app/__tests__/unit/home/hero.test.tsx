@@ -1,7 +1,7 @@
 import { render, screen, act } from "@testing-library/react";
 import React from "react";
 import "@testing-library/jest-dom";
-import Hero from "@/app/(home)/_components/Hero";
+import Hero from "@/app/(home)/_components/header/Hero";
 
 
 describe("Hero component", () => {
