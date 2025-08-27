@@ -6,7 +6,12 @@ import Link from 'next/link'
 const Logo = () => {
   return (
     <Link href='/'>
-        <Image width={130} height={70} src={Wapkon} alt='Logo de Wapkon Bénin' />
+<Image
+  src={Wapkon}
+  alt="Logo de Wapkon Bénin"
+  priority
+  className="w-24 sm:w-28 md:w-32.5"
+/>
     </Link>
   )
 }

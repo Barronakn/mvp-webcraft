@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import './styles/hero.css'
+import './styles/hero.css';
 import Providers from './providers';
 import { ConvexClientProvider } from './ConvexClientProvider';
-
 
 export const metadata: Metadata = {
   title: 'Wakpon Bénin',
@@ -17,14 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body
-        className={`antialiased`}
-      >
-          <ConvexClientProvider>
-        <Providers>
-            {children}
-        </Providers>
-          </ConvexClientProvider>
+      <body className={`antialiased`}>
+        <ConvexClientProvider>
+          <Providers>{children}</Providers>
+        </ConvexClientProvider>
       </body>
     </html>
   );
