@@ -8,7 +8,7 @@ interface BtnAddArrowProps {
 
 const BtnAndArrow:React.FC<BtnAddArrowProps> = ({classname}) => {
   return (
-    <Button className={`flex flex-row gap-x-4 items-center text-white rounded-full font-semibold transition ${classname}`}>
+    <Button className={`flex flex-row gap-x-2 md:gap-x-4 items-center text-white rounded-full font-semibold transition ${classname}`}>
       <span className="font-jost">Commencer l’aventure</span>
       <ArrowRight className="text-white w-6 h-6 lg:w-7 lg:h-7" />
     </Button>
