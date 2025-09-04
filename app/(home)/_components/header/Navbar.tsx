@@ -22,7 +22,7 @@ const Navbar = () => {
             A Propos
           </Link>
           <Link
-            href="/sites_touristiques"
+            href="/site"
             className="text-gray-800 hover:text-black-blue hover:underline text-lg font-inter font-medium"
           >
             Sites Touristiques
