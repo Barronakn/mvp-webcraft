@@ -66,6 +66,17 @@ export const destinations = [
     tags: ["Route des Esclaves", "Porte du Non-Retour", "Temple des Pythons", "Vaudou"],
     image: destination3,
   },
+  {
+    id: 4,
+    title: "Cotonou",
+    region: "Littoral, Bénin",
+    description:
+      "Capitale économique dynamique où tradition et modernité se mélangent harmonieusement.",
+    duration: "2-3 jours",
+    visitors: "80k+",
+    tags: ["Marché Dantokpa", "Plage de Fidjrossè", "Place de l’Amazone"],
+    image: destination3,
+  },
 ];
 
 export const artisans = [
