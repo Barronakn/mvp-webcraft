@@ -13,6 +13,7 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as queries_sites from "../queries/sites.js";
 import type * as schemas from "../schemas.js";
 
 /**
@@ -24,6 +25,7 @@ import type * as schemas from "../schemas.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  "queries/sites": typeof queries_sites;
   schemas: typeof schemas;
 }>;
 export declare const api: FilterApi<
