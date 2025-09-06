@@ -24,9 +24,10 @@ export default defineSchema({
     duration_from_cotonou: v.optional(v.number()),
     contentHtml: v.optional(v.string()),
   })
+    .index('by_slug', ['slug'])
     .index('by_city', ['city'])
     .index('by_category', ['category'])
-    .index('by_cooridinates', ['coordinates'])
+    .index('by_coordinates', ['coordinates'])
     .searchIndex('search_name', {
       searchField: 'name',
     })
