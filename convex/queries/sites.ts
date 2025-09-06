@@ -13,3 +13,18 @@ export const getSiteById = query({
     return site;
   },
 });
+
+export const getSiteBySlug = query({
+  args: { slug: v.string() },
+  handler: async (ctx, args) => {
+    const site = await ctx.db
+      .query('sites')
+      .withIndex('by_slug', (q) => q.eq('slug', args.slug))
+      .first();
+
+    if (!site) {
+      throw new Error('Site not found');
+    }
+    return site;
+  },
+});
