@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flex px-6 lg:px-16 z-50 bg-cream-300 fixed left-0 top-0 w-full py-4 lg:py-4 justify-between items-center shadow">
       <Logo />
-      <div className="hidden lg:flex flex-row text-gra space-x-16 items-center">
+      <div className="hidden lg:flex flex-row text-gra space-x-20 items-center">
         <div className="flex flex-row space-x-4 items-center">
           <Link href="/" className="text-gray-800 hover:text-terracotta-500 text-base font-inter font-semibold transition duration-300">
             Accueil
@@ -25,6 +25,9 @@ const Navbar = () => {
             className="text-gray-800 hover:text-terracotta-500 text-base font-inter font-semibold transition duration-300"
           >
             Sites Touristiques
+          </Link>
+          <Link href="/contact" className="text-gray-800 hover:text-terracotta-500 text-base font-inter font-semibold transition duration-300">
+            Contactez-nous
           </Link>
         </div>
 

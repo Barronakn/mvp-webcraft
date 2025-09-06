@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Compass, Info, Map } from 'lucide-react';
+import { Home, Compass, Info, Map, Contact2 } from 'lucide-react';
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -12,8 +12,9 @@ const MobileNavbar = () => {
   const links = [
     { href: '/', label: 'Accueil', icon: <Home size={22} /> },
     { href: '/explore', label: 'Explorer', icon: <Compass size={22} /> },
-    { href: '/sites_touristiques', label: 'Sites', icon: <Map size={22} /> },
-    { href: '/about', label: 'A Propos', icon: <Info size={22} /> },
+    { href: '/sites', label: 'Sites', icon: <Map size={22} /> },
+    { href: '/about', label: 'À Propos', icon: <Info size={22} /> },
+    { href: '/contact', label: 'Contactez-nous', icon: <Contact2 size={22} /> },
   ];
 
   return (
@@ -28,20 +29,19 @@ const MobileNavbar = () => {
                 href={link.href}
                 className="flex flex-col items-center text-gray-800 hover:text-black-blue transition-colors relative"
               >
-                {isActive && (
-                  <motion.div
-                    layoutId="activeTab"
-                    className="absolute -top-2 w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shadow-md"
-                    initial={false}
-                    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                  >
-                    {link.icon}
-                  </motion.div>
-                )}
+                <motion.div
+                  layoutId={isActive ? 'activeTab' : undefined}
+                  className={`flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 ${
+                    isActive ? 'bg-black text-white shadow-md' : ''
+                  }`}
+                  initial={false}
+                  transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+                >
+                  {link.icon}
+                </motion.div>
 
-                {!isActive && link.icon}
                 <span
-                  className={`text-xs mt-1 font-medium ${
+                  className={`text-xs mt-1 font-medium transition-colors duration-300 ${
                     isActive ? 'text-black' : 'text-gray-800'
                   }`}
                 >

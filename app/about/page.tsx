@@ -24,11 +24,13 @@ const partnersData = [
   { name: "partner 3", logo: partner3 },
 ];
 import PageHeader from "../components/PageHeader";
+import MobileNavbar from "../(home)/_components/header/MobileNavbar";
 
 export default function page() {
   return (
     <div className="">
       <Navbar />
+      <MobileNavbar />
       <PageHeader
         title="À propos de nous"
         description="Notre mission est de faire découvrir au monde entier la richesse culturelle et artisanale exceptionnelle du Bénin, terre d'histoire et de traditions."

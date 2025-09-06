@@ -8,11 +8,13 @@ import SiteItem from './_components/SiteItem'
 import PageHeader from "../components/PageHeader";
 
 import Footer from "../components/layout/Footer";
+import MobileNavbar from "../(home)/_components/header/MobileNavbar";
 
 export default function page() {
     return (
         <div className="">
             <Navbar />
+            <MobileNavbar />
             <PageHeader
                 title="Sites Touristiques"
                 description="Explorez les merveilles historiques, culturelles et naturelles du Bénin"
