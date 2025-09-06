@@ -6,6 +6,7 @@ import { v } from 'convex/values';
 export default defineSchema({
   sites: defineTable({
     name: v.string(),
+    slug: v.string(),
     description: v.optional(v.string()),
     category: v.string(),
     city: v.string(),
