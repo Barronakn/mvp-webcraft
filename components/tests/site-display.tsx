@@ -2,13 +2,12 @@
 
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
-import { Id } from "@/convex/_generated/dataModel";
 
 import Image from "next/image";
 
 export default function TestGetSite() {
-    // ⚠️ Mets ici un vrai _id d’un site existant en base Convex
-    const site = useQuery(api.queries.sites.getSiteById, { id: "j57716dtb14w3rzzfd3kkam8fd7pyk4p" as Id<"sites"> });
+    // ⚠️ Mets ici un vrai slug d’un site existant en base Convex
+    const site = useQuery(api.queries.sites.getSiteBySlug, { slug: "la-porte-du-non-retour" });
 
     if (site === undefined) return <p>Chargement...</p>;
     if (site === null) return <p>Pas de site trouvé.</p>;
