@@ -1,0 +1,358 @@
+[
+  {
+    "name": "La Porte du Non-Retour",
+    "slug": "la-porte-du-non-retour",
+    "description": "Arc-mémorial sur la plage, étape finale de la Route des Esclaves.",
+    "category": "historique",
+    "city": "Ouidah",
+    "rating": 4.1,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/62/d2/47/ouidah-s-non-retour-gate.jpg?w=1200&h=700&s=1",
+      "https://www.pinterest.com/pin/27021666493995318/",
+      "https://www.pinterest.com/pin/1131388737674504603/"
+    ],
+    "coordinates": {
+      "latitude": 6.3601,
+      "longitude": 2.0909
+    },
+    "reviews_count": 132,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": null,
+    "tags": ["mémoire", "UNESCO"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Route des Esclaves",
+    "slug": "route-des-esclaves",
+    "description": "Chemin symbolique de 4 km retraçant l'histoire douloureuse de la traite négrière du marché aux enchères jusqu'à la mer.",
+    "category": "historique",
+    "city": "Ouidah",
+    "rating": 4.6,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/0d/ab/48/slave-route-view-of-the.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/f9/08/7a/slave-route-statue-of.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/0d/ab/49/slave-route-view-from.jpg?w=1200&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.3633,
+      "longitude": 2.085
+    },
+    "reviews_count": 5,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": null,
+    "tags": ["mémoire"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Musée d'Histoire de Ouidah (Fort Portugais)",
+    "slug": "musee-histoire-de-ouidah",
+    "description": "Musée installé dans l'ancien fort portugais ; traite notamment de la Traite atlantique.",
+    "category": "historique",
+    "city": "Ouidah",
+    "rating": 4.1,
+    "photos": [
+      "https://www.pinterest.com/pin/354306695707943378/",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e2/f7/f0/ouidah-museum-of-history.jpg?w=2000&h=-1&s=1",
+      "https://www.pinterest.com/pin/1131388737674503111/"
+    ],
+    "coordinates": {
+      "latitude": 6.3638,
+      "longitude": 2.081
+    },
+    "reviews_count": 78,
+    "entry_type": "payant",
+    "price": 2000,
+    "opening_hours": "09:00 - 17:00",
+    "tags": ["musée"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Palais Royal d'Abomey (UNESCO)",
+    "slug": "palais-royal-abomey",
+    "description": "Ancienne résidence des rois du Dahomey, classée au patrimoine mondial de l'UNESCO.",
+    "category": "historique",
+    "city": "Abomey",
+    "rating": 4.1,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/73/28/7d/royal-palaces-of-abomey.jpg?w=2000&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/73/28/65/royal-palaces-of-abomey.jpg?w=2000&h=-1&s=1",
+      "https://www.pinterest.com/pin/695102523769895238/"
+    ],
+    "coordinates": {
+      "latitude": 7.1823,
+      "longitude": 1.9912
+    },
+    "reviews_count": 78,
+    "entry_type": "payant",
+    "price": 3000,
+    "opening_hours": "09:00 - 17:00",
+    "tags": ["UNESCO", "histoire"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Place Goho (Statue du Roi Béhanzin)",
+    "slug": "place-goho",
+    "description": "Place emblématique avec statue de Béhanzin.",
+    "category": "historique",
+    "city": "Abomey",
+    "rating": 3.8,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/53/7a/c9/goho-square-statue-of.jpg?w=1400&h=800&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/53/7a/c7/mausoleum-of-king-behanzin.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/53/7a/c5/mausoleum-of-king-behanzin.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 7.1826,
+      "longitude": 1.9915
+    },
+    "reviews_count": 4,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": null,
+    "tags": ["statue"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Place Toffa (ex Place Jean-Bayol)",
+    "slug": "place-toffa",
+    "description": "Place emblématique avec statue du roi Toffa 1er.",
+    "category": "historique",
+    "city": "Porto-Novo",
+    "rating": 4.5,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/14/d5/cb/jardin-place-jean-bayol.jpg?w=1000&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.4972,
+      "longitude": 2.6283
+    },
+    "reviews_count": 6,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": "24h/24",
+    "tags": ["statue"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Musée Honmé (Palais Royal de Porto-Novo)",
+    "slug": "musee-honme",
+    "description": "Ancienne résidence des rois de Porto-Novo, transformée en musée.",
+    "category": "historique",
+    "city": "Porto-Novo",
+    "rating": 3.9,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/14/f4/9e/musee-honme-palais-royal.jpg?w=2000&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f5/3f/14/caption.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.4965,
+      "longitude": 2.627
+    },
+    "reviews_count": 20,
+    "entry_type": "payant",
+    "price": 1500,
+    "opening_hours": "09:00 - 17:00",
+    "tags": ["musée"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Parc National de la Pendjari (UNESCO)",
+    "slug": "parc-national-pendjari",
+    "description": "Aire protégée du Bénin, située à l'extrême nord-ouest du pays, dans le département de l'Atacora.",
+    "category": "naturel",
+    "city": "Natitingou",
+    "rating": 4.3,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/90/49/4d/grues-couronnees.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/fb/86/park-of-pendjari-juillet.jpg?w=2000&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8b/5c/12/pendjari-national-park.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 11.0833,
+      "longitude": 1.5167
+    },
+    "reviews_count": 69,
+    "entry_type": "payant",
+    "price": 5000,
+    "opening_hours": "06:30 - 17:30",
+    "tags": ["UNESCO", "safari"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Cascades de Tanougou",
+    "slug": "cascades-de-tanougou",
+    "description": "Chute d'eau près du parc de la Pendjari dans la commune de Tanguiéta.",
+    "category": "naturel",
+    "city": "Tanguiéta",
+    "rating": 4.3,
+    "photos": [
+      "https://www.voyage-benin.com/cdn/bj-public/petit_bassin-MAX-w1000h600.jpg",
+      "https://www.voyage-benin.com/cdn/bj-public/grand_bassin-MAX-w1000h600.jpg",
+      "https://www.voyage-benin.com/cdn/bj-public/tanougou_bassin-MAX-w1000h600.jpg"
+    ],
+    "coordinates": {
+      "latitude": 10.8833,
+      "longitude": 1.4167
+    },
+    "reviews_count": 69,
+    "entry_type": "payant",
+    "price": 1000,
+    "opening_hours": "08:00 - 18:00",
+    "tags": ["cascade"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Chutes de Kota",
+    "slug": "chutes-de-kota",
+    "description": "Chutes d'eau situées près de la ville de Natitingou en Atacora.",
+    "category": "naturel",
+    "city": "Natitingou",
+    "rating": 4.5,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/a7/cf/grande-chute-ou-se-baigner.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b5/a7/4b/chutes-de-kota.jpg?w=1600&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/12/97/b5/chutes-de-kota.jpg?w=2000&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 10.3,
+      "longitude": 1.3833
+    },
+    "reviews_count": 69,
+    "entry_type": "payant",
+    "price": 1000,
+    "opening_hours": "08:00 - 18:00",
+    "tags": ["cascade"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Village Lacustre de Ganvié",
+    "slug": "village-lacustre-de-ganvie",
+    "description": "Village construit sur pilotis, patrimoine vivant surnommé la Venise de l'Afrique.",
+    "category": "culturel",
+    "city": "Sô-Ava",
+    "rating": 5.0,
+    "photos": [
+      "https://i0.wp.com/drachtravel.com/wp-content/uploads/2023/04/Group-6.png?resize=1024%2C1024&ssl=1",
+      "https://my-make-bucket.s3.eu-north-1.amazonaws.com/Photos/ixngcxhelvtbzfhlnsxx.webp",
+      "https://www.voyage-benin.com/cdn/bj-public/shutterstock_1150989716-MAX-w1000h600.jpg"
+    ],
+    "coordinates": {
+      "latitude": 6.4833,
+      "longitude": 2.4167
+    },
+    "reviews_count": 69,
+    "entry_type": "payant",
+    "price": 2000,
+    "opening_hours": "08:00 - 17:00",
+    "tags": ["lacustre", "patrimoine"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Place de l'Amazone",
+    "slug": "place-de-lamazone",
+    "description": "Esplanade moderne avec une imposante statue de l’Amazone, symbole du courage féminin du Dahomey.",
+    "category": "culturel",
+    "city": "Cotonou",
+    "rating": 4.7,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/b4/ca/27/caption.jpg?w=1400&h=800&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c4/9f/46/monument-amazone.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.3522,
+      "longitude": 2.436
+    },
+    "reviews_count": 210,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": null,
+    "tags": ["statue", "symbole"],
+    "duration_from_cotonou": 0,
+    "contentHtml": null
+  },
+  {
+    "name": "Lac Nokoué",
+    "slug": "lac-nokoue",
+    "description": "Grand lac situé au sud du Bénin, connu pour ses villages lacustres comme Ganvié.",
+    "category": "naturel",
+    "city": "Cotonou",
+    "rating": 4.4,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/bc/37/3a/caption.jpg?w=1200&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/bc/37/38/caption.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1a/23/2a/przy-przystani-kwitnie.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.45,
+      "longitude": 2.42
+    },
+    "reviews_count": 85,
+    "entry_type": "gratuit",
+    "price": null,
+    "opening_hours": null,
+    "tags": ["lac", "nature"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Temple des Pythons",
+    "slug": "temple-des-pythons",
+    "description": "Lieu sacré dédié au culte des pythons, symbole de protection et de divinité.",
+    "category": "culturel",
+    "city": "Ouidah",
+    "rating": 4.2,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/79/54/65/temple-des-pythons.jpg?w=2000&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9b/a0/f6/img-20190220-114822106.jpg?w=1100&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a0/fa/54/temple-des-pythons.jpg?w=2000&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.3667,
+      "longitude": 2.0833
+    },
+    "reviews_count": 120,
+    "entry_type": "payant",
+    "price": 1500,
+    "opening_hours": "08:00 - 18:00",
+    "tags": ["culte", "tradition"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  },
+  {
+    "name": "Forêt Sacrée de Kpassè",
+    "slug": "foret-sacre-de-kpasse",
+    "description": "Forêt sacrée abritant des arbres centenaires et des statues représentant des divinités vaudou.",
+    "category": "naturel",
+    "city": "Ouidah",
+    "rating": 4.0,
+    "photos": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/51/74/96/sacred-forest-of-kpasse.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/4f/d8/07/caption.jpg?w=1400&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8b/60/98/foret-sacree.jpg?w=1400&h=-1&s=1"
+    ],
+    "coordinates": {
+      "latitude": 6.3667,
+      "longitude": 2.0833
+    },
+    "reviews_count": 50,
+    "entry_type": "payant",
+    "price": 1000,
+    "opening_hours": "08:00 - 17:00",
+    "tags": ["vaudou", "nature"],
+    "duration_from_cotonou": null,
+    "contentHtml": null
+  }
+]
