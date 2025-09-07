@@ -2,6 +2,7 @@
 
 import { query } from '../_generated/server';
 import { v } from 'convex/values';
+import { paginationOptsValidator } from 'convex/server';
 
 export const getSiteById = query({
   args: { id: v.id('sites') },
@@ -26,5 +27,16 @@ export const getSiteBySlug = query({
       throw new Error('Site not found');
     }
     return site;
+  },
+});
+
+export const listSites = query({
+  args: { paginationOpts: paginationOptsValidator },
+  handler: async (ctx, args) => {
+    const paginatedSites = await ctx.db
+      .query('sites')
+      .paginate(args.paginationOpts);
+
+    return paginatedSites;
   },
 });
