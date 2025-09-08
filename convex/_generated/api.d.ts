@@ -13,6 +13,8 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as mutations_itineraries from "../mutations/itineraries.js";
+import type * as mutations_sites from "../mutations/sites.js";
 import type * as queries_sites from "../queries/sites.js";
 
 /**
@@ -24,6 +26,8 @@ import type * as queries_sites from "../queries/sites.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  "mutations/itineraries": typeof mutations_itineraries;
+  "mutations/sites": typeof mutations_sites;
   "queries/sites": typeof queries_sites;
 }>;
 export declare const api: FilterApi<
