@@ -14,6 +14,7 @@ export const createItinerary = mutation({
     description: v.optional(v.string()),
     stopovers: v.array(v.id('sites')), // Ajoute des sites comme arrêts
     distance: v.number(),
+    popularity: v.number(),
   },
   async handler(ctx, args) {
     const itineraryId = await ctx.db.insert('itineraries', {
@@ -22,6 +23,7 @@ export const createItinerary = mutation({
       description: args.description,
       stopovers: args.stopovers,
       distance: args.distance,
+      popularity: args.popularity,
       createdAt: Date.now(),
     });
     return itineraryId;
