@@ -34,4 +34,24 @@ export default defineSchema({
     .searchIndex('search_content', {
       searchField: 'contentHtml',
     }),
+
+  itineraries: defineTable({
+    departure: v.object({
+      lat: v.number(),
+      lng: v.number(),
+      name: v.optional(v.string()),
+    }),
+    destination: v.id('sites'),
+    description: v.optional(v.string()),
+    stopovers: v.array(v.id('sites')),
+    distance: v.number(),
+    popularity: v.number(),
+    createdAt: v.number(),
+  }),
+
+  ratings: defineTable({
+    siteId: v.id('sites'),
+    rating: v.number(),
+    createdAt: v.number(),
+  }).index('by_siteId', ['siteId']),
 });
