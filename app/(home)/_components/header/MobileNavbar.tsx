@@ -12,7 +12,7 @@ const MobileNavbar = () => {
   const links = [
     { href: '/', label: 'Accueil', icon: <Home size={22} /> },
     { href: '/explore', label: 'Explorer', icon: <Compass size={22} /> },
-    { href: '/sites', label: 'Sites', icon: <Map size={22} /> },
+    { href: '/site', label: 'Sites', icon: <Map size={22} /> },
     { href: '/about', label: 'À Propos', icon: <Info size={22} /> },
     { href: '/contact', label: 'Contactez-nous', icon: <Contact2 size={22} /> },
   ];
