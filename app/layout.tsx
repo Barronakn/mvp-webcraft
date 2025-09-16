@@ -1,8 +1,10 @@
+
 import type { Metadata } from 'next';
 import './globals.css';
 import './styles/hero.css';
 import Providers from './providers';
 import { ConvexClientProvider } from './ConvexClientProvider';
+import ScrollbarWrapper from './ScrollbarWrapper';
 
 export const metadata: Metadata = {
   title: 'Wakpon Bénin',
@@ -18,7 +20,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`antialiased`}>
         <ConvexClientProvider>
-          <Providers>{children}</Providers>
+          <Providers> <ScrollbarWrapper>{children}</ScrollbarWrapper> </Providers>
         </ConvexClientProvider>
       </body>
     </html>
