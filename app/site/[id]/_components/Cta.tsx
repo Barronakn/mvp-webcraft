@@ -1,7 +1,9 @@
 "use client";
 import { Button } from '@/components/ui/button';
+import { useRouter } from 'next/navigation';
 
 export default function Cta() {
+    const router = useRouter()
     return (
         <div className="flex items-center justify-center mt-16">
             <div className="flex flex-row w-[90%] h-[10rem] border-2 border-gray-200 rounded-2xl">
@@ -10,7 +12,7 @@ export default function Cta() {
                     <p className="text-[22px]">Ancienne résidence des rois du Dahomey, classée au patrimoine mondial de l'UNESCO.</p>
                 </div>
                 <div className="flex w-[50%] h-full justify-end p-4">
-                    <Button className="w-[25%] h-[25%] flex items-center gap-2 px-4 py-2 bg-orange-500 text-white font-medium rounded-full hover:bg-blue-700 transition">
+                    <Button onClick={() => router.push('/itineraire')} className="w-[25%] h-[25%] flex items-center gap-2 px-4 py-2 bg-orange-500 text-white font-medium rounded-full hover:bg-blue-700 transition">
                         Visiter ce site
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
