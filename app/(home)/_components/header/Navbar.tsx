@@ -13,7 +13,7 @@ const Navbar = () => {
   const links = [
     { href: '/', label: 'Accueil' },
     { href: '/about', label: 'À Propos de nous' },
-    { href: '/sites', label: 'Sites Touristiques' },
+    { href: '/site', label: 'Sites Touristiques' },
     { href: '/contact', label: 'Contactez-nous' },
   ];
 
