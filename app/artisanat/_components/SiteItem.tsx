@@ -1,10 +1,9 @@
 import { Star, Clock, MapPin, ArrowRight } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { Id } from "@/convex/_generated/dataModel";
 
 type ItemType = {
-    _id: Id<"sites"> | string;
+    _id: Id<"sites">;
     category: string;
     photos: string[];
     name: string;
@@ -18,8 +17,6 @@ type ItemType = {
 };
 
 export default function SiteItem({ item }: { item: ItemType }) {
-    const router = useRouter();
-
     return (
         <div
             key={item._id}
@@ -85,7 +82,6 @@ export default function SiteItem({ item }: { item: ItemType }) {
                 </div>
                 <div>
                     <button
-                        onClick={() => router.push(`/site/${item._id}`)}
                         className="bg-gradient-to-r from-terracotta-500 to-sand-500 text-light-gray hover:from-terracotta-600 hover:to-sand-600 font-jost cursor-pointer flex items-center justify-center rounded-full w-full py-2 gap-x-2 font-semibold transition"
                     >
                         <span className="font-jost">Voir détails</span>
