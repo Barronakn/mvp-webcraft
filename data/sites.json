@@ -5,6 +5,7 @@
     "description": "Arc-mémorial sur la plage, étape finale de la Route des Esclaves.",
     "category": "historique",
     "city": "Ouidah",
+    "region": "Atlantique",
     "rating": 4.1,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/62/d2/47/ouidah-s-non-retour-gate.jpg?w=1200&h=700&s=1",
@@ -20,8 +21,12 @@
     "price": null,
     "opening_hours": null,
     "tags": ["mémoire", "UNESCO"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 1,
+    "duration": "1 heure",
+    "visitors": "50 000+ par an",
+    "contentHtml": "<p>La Porte du Non-Retour est un mémorial poignant situé sur la plage de Ouidah, marquant l'endroit où des millions d'Africains furent embarqués pour les Amériques lors de la traite négrière. Ce site, classé au patrimoine mondial de l'UNESCO, symbolise la mémoire et la résilience.</p><ul><li><strong>Signification :</strong> Dernier point de départ des esclaves.</li><li><strong>Visite :</strong> Accessible à pied depuis la Route des Esclaves.</li></ul>",
+    "story": "<p>L'histoire de la Porte du Non-Retour commence au XVIIIe siècle, lorsque Ouidah était un centre majeur de la traite négrière. Construite en 1992, elle commémore les souffrances des esclaves et leur départ forcé vers un avenir incertain.</p>",
+    "heritage": "<p>Classée au patrimoine UNESCO, la Porte du Non-Retour est un lieu de recueillement et d'éducation, attirant des visiteurs du monde entier pour réfléchir sur l'histoire de l'esclavage et ses impacts durables.</p>"
   },
   {
     "name": "Route des Esclaves",
@@ -29,6 +34,7 @@
     "description": "Chemin symbolique de 4 km retraçant l'histoire douloureuse de la traite négrière du marché aux enchères jusqu'à la mer.",
     "category": "historique",
     "city": "Ouidah",
+    "region": "Atlantique",
     "rating": 4.6,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/0d/ab/48/slave-route-view-of-the.jpg?w=1400&h=-1&s=1",
@@ -44,8 +50,12 @@
     "price": null,
     "opening_hours": null,
     "tags": ["mémoire"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 1,
+    "duration": "2 heures",
+    "visitors": "20 000+ par an",
+    "contentHtml": "<p>La Route des Esclaves est un chemin de 4 km à Ouidah, retraçant le parcours des esclaves du marché de Chacha jusqu'à la Porte du Non-Retour. Ce sentier, jalonné de statues et de monuments, raconte l'histoire tragique de la traite négrière.</p><ul><li><strong>Parcours :</strong> Inclut des arrêts comme l'Arbre de l'Oubli.</li><li><strong>Importance :</strong> Site de mémoire et de réflexion.</li></ul>",
+    "story": "<p>Utilisée dès le XVIIe siècle, la Route des Esclaves était le dernier chemin parcouru par les captifs avant leur embarquement. Chaque étape, comme l'Arbre du Retour, porte une signification spirituelle et historique.</p>",
+    "heritage": "<p>Ce site est un témoignage vivant de l'histoire de la traite négrière, préservé pour éduquer les générations futures sur les horreurs de l'esclavage et l'importance de la liberté.</p>"
   },
   {
     "name": "Musée d'Histoire de Ouidah (Fort Portugais)",
@@ -53,6 +63,7 @@
     "description": "Musée installé dans l'ancien fort portugais ; traite notamment de la Traite atlantique.",
     "category": "historique",
     "city": "Ouidah",
+    "region": "Atlantique",
     "rating": 4.1,
     "photos": [
       "https://www.pinterest.com/pin/354306695707943378/",
@@ -68,8 +79,12 @@
     "price": 2000,
     "opening_hours": "09:00 - 17:00",
     "tags": ["musée"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 1,
+    "duration": "1.5 heures",
+    "visitors": "15 000+ par an",
+    "contentHtml": "<p>Le Musée d'Histoire de Ouidah, situé dans l'ancien fort portugais, retrace l'histoire de la traite atlantique et l'influence portugaise au Bénin. Il abrite des artefacts, des documents et des expositions sur la traite négrière.</p><ul><li><strong>Expositions :</strong> Objets historiques et récits détaillés.</li><li><strong>Accès :</strong> Entrée payante avec guide recommandé.</li></ul>",
+    "story": "<p>Construit en 1721 par les Portugais, le fort était un centre administratif et commercial. Transformé en musée en 1967, il conserve la mémoire de la traite atlantique et de ses impacts.</p>",
+    "heritage": "<p>Ce musée est un lieu clé pour comprendre l'histoire coloniale et négrière du Bénin, offrant un regard éducatif sur un passé complexe.</p>"
   },
   {
     "name": "Palais Royal d'Abomey (UNESCO)",
@@ -77,6 +92,7 @@
     "description": "Ancienne résidence des rois du Dahomey, classée au patrimoine mondial de l'UNESCO.",
     "category": "historique",
     "city": "Abomey",
+    "region": "Zou",
     "rating": 4.1,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/73/28/7d/royal-palaces-of-abomey.jpg?w=2000&h=-1&s=1",
@@ -92,8 +108,12 @@
     "price": 3000,
     "opening_hours": "09:00 - 17:00",
     "tags": ["UNESCO", "histoire"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 2,
+    "duration": "2 heures",
+    "visitors": "25 000+ par an",
+    "contentHtml": "<p>Les Palais Royaux d'Abomey, classés au patrimoine UNESCO, sont un ensemble de palais construits par les rois du Dahomey entre le XVIIe et le XIXe siècle. Ils abritent des bas-reliefs et des objets royaux.</p><ul><li><strong>Attractions :</strong> Bas-reliefs narratifs, trônes royaux.</li><li><strong>Visite :</strong> Guidée pour une immersion historique.</li></ul>",
+    "story": "<p>Les palais ont été le cœur du royaume du Dahomey, servant de résidences aux rois comme Ghezo et Glèlè. Chaque palais reflète l'histoire et la puissance du royaume.</p>",
+    "heritage": "<p>Inscrit à l'UNESCO en 1985, ce site est un symbole de la richesse culturelle et historique du Dahomey, préservant l'héritage des royaumes africains précoloniaux.</p>"
   },
   {
     "name": "Place Goho (Statue du Roi Béhanzin)",
@@ -101,6 +121,7 @@
     "description": "Place emblématique avec statue de Béhanzin.",
     "category": "historique",
     "city": "Abomey",
+    "region": "Zou",
     "rating": 3.8,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/53/7a/c9/goho-square-statue-of.jpg?w=1400&h=800&s=1",
@@ -116,8 +137,12 @@
     "price": null,
     "opening_hours": null,
     "tags": ["statue"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 2,
+    "duration": "30 minutes",
+    "visitors": "10 000+ par an",
+    "contentHtml": "<p>La Place Goho abrite une statue imposante du roi Béhanzin, figure emblématique de la résistance contre la colonisation française au Dahomey.</p><ul><li><strong>Signification :</strong> Hommage au roi Béhanzin.</li><li><strong>Accès :</strong> Libre et ouvert à tous.</li></ul>",
+    "story": "<p>Béhanzin, dernier roi indépendant du Dahomey, a résisté aux Français jusqu'en 1894. La statue, érigée à Goho, célèbre son courage et son héritage.</p>",
+    "heritage": "<p>Ce lieu perpétue la mémoire de la résistance anticoloniale et de la fierté nationale béninoise.</p>"
   },
   {
     "name": "Place Toffa (ex Place Jean-Bayol)",
@@ -125,6 +150,7 @@
     "description": "Place emblématique avec statue du roi Toffa 1er.",
     "category": "historique",
     "city": "Porto-Novo",
+    "region": "Ouémé",
     "rating": 4.5,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/14/d5/cb/jardin-place-jean-bayol.jpg?w=1000&h=-1&s=1"
@@ -138,8 +164,12 @@
     "price": null,
     "opening_hours": "24h/24",
     "tags": ["statue"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 0.5,
+    "duration": "30 minutes",
+    "visitors": "15 000+ par an",
+    "contentHtml": "<p>La Place Toffa, anciennement Place Jean-Bayol, célèbre le roi Toffa 1er, qui régna sur Porto-Novo au XIXe siècle. Sa statue est un symbole de l'histoire locale.</p><ul><li><strong>Attractions :</strong> Jardin et statue historique.</li><li><strong>Accès :</strong> Ouvert en permanence.</li></ul>",
+    "story": "<p>Toffa 1er, roi de Porto-Novo, a signé des traités avec les Français pour protéger son royaume. La place porte son nom en hommage à son règne.</p>",
+    "heritage": "<p>Ce lieu reflète l'histoire politique et culturelle de Porto-Novo, capitale du Bénin.</p>"
   },
   {
     "name": "Musée Honmé (Palais Royal de Porto-Novo)",
@@ -147,6 +177,7 @@
     "description": "Ancienne résidence des rois de Porto-Novo, transformée en musée.",
     "category": "historique",
     "city": "Porto-Novo",
+    "region": "Ouémé",
     "rating": 3.9,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/14/f4/9e/musee-honme-palais-royal.jpg?w=2000&h=-1&s=1",
@@ -161,8 +192,12 @@
     "price": 1500,
     "opening_hours": "09:00 - 17:00",
     "tags": ["musée"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 0.5,
+    "duration": "1.5 heures",
+    "visitors": "12 000+ par an",
+    "contentHtml": "<p>Le Musée Honmé, situé dans l'ancien palais royal de Porto-Novo, expose des objets royaux, des costumes et des artefacts historiques liés aux rois de Porto-Novo.</p><ul><li><strong>Expositions :</strong> Trônes, vêtements royaux.</li><li><strong>Visite :</strong> Guidée pour une expérience immersive.</li></ul>",
+    "story": "<p>Construit au XIXe siècle, le palais Honmé était la résidence des rois de Porto-Novo. Transformé en musée, il conserve l'histoire de la royauté locale.</p>",
+    "heritage": "<p>Ce musée est un gardien de la culture et de l'histoire de Porto-Novo, offrant un aperçu de la vie royale précoloniale.</p>"
   },
   {
     "name": "Parc National de la Pendjari (UNESCO)",
@@ -170,6 +205,7 @@
     "description": "Aire protégée du Bénin, située à l'extrême nord-ouest du pays, dans le département de l'Atacora.",
     "category": "naturel",
     "city": "Natitingou",
+    "region": "Atacora",
     "rating": 4.3,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/90/49/4d/grues-couronnees.jpg?w=1400&h=-1&s=1",
@@ -185,8 +221,12 @@
     "price": 5000,
     "opening_hours": "06:30 - 17:30",
     "tags": ["UNESCO", "safari"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 10,
+    "duration": "2 jours",
+    "visitors": "8 000+ par an",
+    "contentHtml": "<p>Le Parc National de la Pendjari, classé UNESCO, est l'une des dernières réserves de faune sauvage en Afrique de l'Ouest. Il abrite des lions, éléphants, buffles et oiseaux rares.</p><ul><li><strong>Activités :</strong> Safaris, observation de la faune.</li><li><strong>Accès :</strong> Requiert un guide et un véhicule 4x4.</li></ul>",
+    "story": "<p>Établi en 1954, le parc a été intégré au complexe W-Arly-Pendjari, reconnu par l'UNESCO. Il est un refuge pour la biodiversité ouest-africaine.</p>",
+    "heritage": "<p>Ce parc est crucial pour la conservation de la faune et la préservation de l'écosystème de la savane ouest-africaine.</p>"
   },
   {
     "name": "Cascades de Tanougou",
@@ -194,6 +234,7 @@
     "description": "Chute d'eau près du parc de la Pendjari dans la commune de Tanguiéta.",
     "category": "naturel",
     "city": "Tanguiéta",
+    "region": "Atacora",
     "rating": 4.3,
     "photos": [
       "https://www.voyage-benin.com/cdn/bj-public/petit_bassin-MAX-w1000h600.jpg",
@@ -209,8 +250,12 @@
     "price": 1000,
     "opening_hours": "08:00 - 18:00",
     "tags": ["cascade"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 10,
+    "duration": "3 heures",
+    "visitors": "10 000+ par an",
+    "contentHtml": "<p>Les Cascades de Tanougou offrent un spectacle naturel époustouflant, avec des bassins propices à la baignade et une vue imprenable sur les environs.</p><ul><li><strong>Activités :</strong> Baignade, randonnée.</li><li><strong>Accès :</strong> Accessible à pied depuis Tanguiéta.</li></ul>",
+    "story": "<p>Les cascades sont un lieu sacré pour les communautés locales, utilisées pour des rituels et des rassemblements. Leur beauté attire aujourd'hui les touristes.</p>",
+    "heritage": "<p>Ce site combine beauté naturelle et importance culturelle, représentant l'harmonie entre l'homme et la nature dans la région Atacora.</p>"
   },
   {
     "name": "Chutes de Kota",
@@ -218,6 +263,7 @@
     "description": "Chutes d'eau situées près de la ville de Natitingou en Atacora.",
     "category": "naturel",
     "city": "Natitingou",
+    "region": "Atacora",
     "rating": 4.5,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/3e/a7/cf/grande-chute-ou-se-baigner.jpg?w=1400&h=-1&s=1",
@@ -233,8 +279,12 @@
     "price": 1000,
     "opening_hours": "08:00 - 18:00",
     "tags": ["cascade"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 9,
+    "duration": "3 heures",
+    "visitors": "12 000+ par an",
+    "contentHtml": "<p>Les Chutes de Kota sont un joyau naturel près de Natitingou, offrant des bassins pour la baignade et des sentiers de randonnée pittoresques.</p><ul><li><strong>Activités :</strong> Baignade, pique-nique.</li><li><strong>Accès :</strong> Facile depuis Natitingou.</li></ul>",
+    "story": "<p>Les chutes ont été un lieu de détente pour les habitants de l'Atacora depuis des générations. Leur popularité a grandi avec le tourisme écologique.</p>",
+    "heritage": "<p>Ce site naturel est un symbole de la beauté de l'Atacora, intégrant des traditions locales et un attrait touristique croissant.</p>"
   },
   {
     "name": "Village Lacustre de Ganvié",
@@ -242,6 +292,7 @@
     "description": "Village construit sur pilotis, patrimoine vivant surnommé la Venise de l'Afrique.",
     "category": "culturel",
     "city": "Sô-Ava",
+    "region": "Atlantique",
     "rating": 5.0,
     "photos": [
       "https://i0.wp.com/drachtravel.com/wp-content/uploads/2023/04/Group-6.png?resize=1024%2C1024&ssl=1",
@@ -257,8 +308,12 @@
     "price": 2000,
     "opening_hours": "08:00 - 17:00",
     "tags": ["lacustre", "patrimoine"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 0.5,
+    "duration": "3 heures",
+    "visitors": "30 000+ par an",
+    "contentHtml": "<p>Le Village Lacustre de Ganvié, surnommé la Venise de l'Afrique, est construit sur pilotis au milieu du lac Nokoué. Les habitants vivent de la pêche et du commerce.</p><ul><li><strong>Activités :</strong> Balades en pirogue, découverte de la vie locale.</li><li><strong>Accès :</strong> Depuis Cotonou par bateau.</li></ul>",
+    "story": "<p>Fondé au XVIIIe siècle par les Tofinu fuyant l'esclavage, Ganvié est devenu un symbole de résilience et d'adaptation à un environnement lacustre.</p>",
+    "heritage": "<p>Ce village est un patrimoine vivant, illustrant l'ingéniosité humaine et la richesse culturelle des communautés lacustres du Bénin.</p>"
   },
   {
     "name": "Place de l'Amazone",
@@ -266,6 +321,7 @@
     "description": "Esplanade moderne avec une imposante statue de l’Amazone, symbole du courage féminin du Dahomey.",
     "category": "culturel",
     "city": "Cotonou",
+    "region": "Atlantique",
     "rating": 4.7,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/b4/ca/27/caption.jpg?w=1400&h=800&s=1",
@@ -281,7 +337,11 @@
     "opening_hours": null,
     "tags": ["statue", "symbole"],
     "duration_from_cotonou": 0,
-    "contentHtml": null
+    "duration": "30 minutes",
+    "visitors": "100 000+ par an",
+    "contentHtml": "<p>La Place de l'Amazone à Cotonou célèbre les femmes guerrières du Dahomey avec une statue imposante, symbole de courage et de force.</p><ul><li><strong>Signification :</strong> Hommage aux Amazones du Dahomey.</li><li><strong>Accès :</strong> Libre et central à Cotonou.</li></ul>",
+    "story": "<p>Inaugurée en 2021, la statue de l'Amazone rend hommage aux femmes soldats du royaume du Dahomey, connues pour leur bravoure face aux colons.</p>",
+    "heritage": "<p>Ce monument moderne est un symbole de l'émancipation féminine et de l'héritage martial du Dahomey.</p>"
   },
   {
     "name": "Lac Nokoué",
@@ -289,6 +349,7 @@
     "description": "Grand lac situé au sud du Bénin, connu pour ses villages lacustres comme Ganvié.",
     "category": "naturel",
     "city": "Cotonou",
+    "region": "Atlantique",
     "rating": 4.4,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/bc/37/3a/caption.jpg?w=1200&h=-1&s=1",
@@ -304,8 +365,12 @@
     "price": null,
     "opening_hours": null,
     "tags": ["lac", "nature"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 0,
+    "duration": "2 heures",
+    "visitors": "20 000+ par an",
+    "contentHtml": "<p>Le Lac Nokoué, situé près de Cotonou, est un écosystème unique abritant des villages lacustres comme Ganvié et une riche biodiversité.</p><ul><li><strong>Activités :</strong> Balades en pirogue, observation des oiseaux.</li><li><strong>Accès :</strong> Facile depuis Cotonou.</li></ul>",
+    "story": "<p>Le lac a été un refuge pour les populations fuyant l'esclavage, donnant naissance à des villages comme Ganvié. Il reste vital pour la pêche et le tourisme.</p>",
+    "heritage": "<p>Le Lac Nokoué est un patrimoine naturel et culturel, soutenant la vie des communautés lacustres et attirant les visiteurs pour sa beauté unique.</p>"
   },
   {
     "name": "Temple des Pythons",
@@ -313,6 +378,7 @@
     "description": "Lieu sacré dédié au culte des pythons, symbole de protection et de divinité.",
     "category": "culturel",
     "city": "Ouidah",
+    "region": "Atlantique",
     "rating": 4.2,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/79/54/65/temple-des-pythons.jpg?w=2000&h=-1&s=1",
@@ -328,8 +394,12 @@
     "price": 1500,
     "opening_hours": "08:00 - 18:00",
     "tags": ["culte", "tradition"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 1,
+    "duration": "1 heure",
+    "visitors": "15 000+ par an",
+    "contentHtml": "<p>Le Temple des Pythons à Ouidah est un lieu sacré où les pythons sont vénérés comme symboles de protection dans la religion vaudou.</p><ul><li><strong>Activités :</strong> Visite guidée, interaction avec les pythons.</li><li><strong>Signification :</strong> Centre spirituel vaudou.</li></ul>",
+    "story": "<p>Construit au XVIIIe siècle, le temple est un haut lieu du vaudou, où les pythons sont considérés comme des protecteurs divins par les adeptes.</p>",
+    "heritage": "<p>Ce temple illustre la richesse spirituelle et culturelle du vaudou, une religion centrale au Bénin.</p>"
   },
   {
     "name": "Forêt Sacrée de Kpassè",
@@ -337,6 +407,7 @@
     "description": "Forêt sacrée abritant des arbres centenaires et des statues représentant des divinités vaudou.",
     "category": "naturel",
     "city": "Ouidah",
+    "region": "Atlantique",
     "rating": 4.0,
     "photos": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/51/74/96/sacred-forest-of-kpasse.jpg?w=1400&h=-1&s=1",
@@ -352,7 +423,11 @@
     "price": 1000,
     "opening_hours": "08:00 - 17:00",
     "tags": ["vaudou", "nature"],
-    "duration_from_cotonou": null,
-    "contentHtml": null
+    "duration_from_cotonou": 1,
+    "duration": "1.5 heures",
+    "visitors": "10 000+ par an",
+    "contentHtml": "<p>La Forêt Sacrée de Kpassè à Ouidah est un sanctuaire vaudou avec des arbres centenaires et des statues de divinités, offrant une immersion spirituelle.</p><ul><li><strong>Activités :</strong> Visite guidée, découverte du vaudou.</li><li><strong>Signification :</strong> Lieu sacré pour les adeptes.</li></ul>",
+    "story": "<p>Fondée au XVIe siècle, la forêt est un lieu de culte pour les adeptes du vaudou, abritant l'esprit du roi Kpassè et des divinités.</p>",
+    "heritage": "<p>Ce site est un pilier du patrimoine vaudou, combinant spiritualité et préservation de la nature.</p>"
   }
 ]

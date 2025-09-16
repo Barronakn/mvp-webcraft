@@ -54,7 +54,7 @@ a. Once the project is set up and data is imported, you can use the defined func
 b. Example Code
 
 ```bash
-// /app/sites/page.tsx (or any component file)
+// /app/site/page.tsx (or any component file)
 import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 
