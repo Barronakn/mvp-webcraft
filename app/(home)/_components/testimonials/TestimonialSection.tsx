@@ -22,16 +22,18 @@ const Testimonials = () => {
   }, []);
 
   useEffect(() => {
+    const currentRef = countersRef.current; // Store in variable
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setCountersVisible(true);
       },
       { threshold: 0.5 }
     );
-
-    if (countersRef.current) observer.observe(countersRef.current);
+  
+    if (currentRef) observer.observe(currentRef);
+    
     return () => {
-      if (countersRef.current) observer.unobserve(countersRef.current);
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, []);
 

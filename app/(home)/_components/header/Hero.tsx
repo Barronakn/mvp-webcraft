@@ -10,6 +10,7 @@ import cardImg4 from '/public/assets/images/mamelle de save.jpg';
 import cardImg5 from '/public/assets/images/slave-route-view-from.jpg';
 import cardImg6 from '/public/assets/images/Temple_des_pythons.jpg.jpeg';
 import BtnAndArrow from '../btnandarrow';
+import { useRouter } from 'next/navigation';
 
 const cardsData = [
   { front: cardImg1, back: cardImg2 },
@@ -19,6 +20,8 @@ const cardsData = [
 
 const Hero = () => {
   const [flipped, setFlipped] = useState([false, false, false]);
+
+  const router = useRouter();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -54,7 +57,7 @@ const Hero = () => {
           époustouflants et l&apos;artisanat exceptionnel du Bénin.
         </p>
 
-        <BtnAndArrow classname='text-lg sm:text-2xl xl:text-4xl !py-5 xl:!py-10 !px-4 sm:!px-8 xl:!px-[5.15625rem] mt-6 xl:mt-10 mb-6 md:mb-10 xl:mb-16' />
+        <BtnAndArrow  onClick={() => router.push(`/site`)} classname='text-lg sm:text-2xl xl:text-4xl !py-5 xl:!py-10 !px-4 sm:!px-8 xl:!px-[5.15625rem] mt-6 xl:mt-10 mb-6 md:mb-10 xl:mb-16' />
       </div>
 
       <div className="w-full xl:w-1/2">

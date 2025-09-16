@@ -5,15 +5,27 @@ import Link from 'next/link';
 import { usePaginatedQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { Button } from '@/components/ui/button';
+import { useRouter } from 'next/navigation';
 
 const Destinations = () => {
+  const router = useRouter()
   const { results, status, loadMore } = usePaginatedQuery(
     api.queries.sites.listSites,
     {}, // pas besoin de cursor/limit
     { initialNumItems: 8 }
   );
 
-  if (status === 'LoadingFirstPage') return <p>Loading...</p>;
+  if (status === 'LoadingFirstPage') {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="flex flex-col items-center">
+          <div className="w-12 h-12 border-4 border-terracotta-500 border-dashed rounded-full animate-spin mb-4"></div>
+          <p className="text-lg font-medium text-gray-700">Loading...</p>
+        </div>
+      </div>
+    );
+  }
+  
 
   return (
     <section className="container p-6 md:p-16">
@@ -84,7 +96,7 @@ const Destinations = () => {
                 </div>
               )}
 
-              <BtnAndArrow classname="text-lg lg:text-xl !py-5 lg:!py-7 !px-2 sm:!px-5 md:!px-10 xl:!px-16" />
+              <BtnAndArrow onClick={() => router.push(`/site/${site._id}`)} classname="text-lg lg:text-xl !py-5 lg:!py-7 !px-2 sm:!px-5 md:!px-10 xl:!px-16" />
             </div>
           </div>
         ))}

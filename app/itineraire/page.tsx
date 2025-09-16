@@ -1,39 +1,23 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Polyline, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
-import L from "leaflet";
+import dynamic from "next/dynamic";
 import { usePaginatedQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
-
 import Footer from "../components/layout/Footer";
 import Navbar from "../(home)/_components/header/Navbar";
-import Image from "next/image";
 
-// Icônes Leaflet
-const markerIcon = new L.Icon({
-  iconUrl: "https://unpkg.com/leaflet@1.7/dist/images/marker-icon.png",
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-});
-
-// Icône artisan personnalisée (HTML + Tailwind)
-const artisanMarkerIcon = new L.DivIcon({
-  className: "custom-marker",
-  html: `
-    <div class="flex items-center justify-center">
-      <div class="w-6 h-6 bg-red-600 border-2 border-white rounded-full shadow-md animate-pulse"></div>
+// Dynamically import the map component with no SSR
+const MapComponent = dynamic(() => import("./_components/MapComponent"), {
+  ssr: false,
+  loading: () => (
+    <div className="h-full w-full flex items-center justify-center">
+      <p>Chargement de la carte...</p>
     </div>
-  `,
-  iconSize: [30, 30],
-  iconAnchor: [15, 15],
-  popupAnchor: [0, -15],
+  )
 });
 
-const ORS_API_KEY =
-  "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjNkMDFlYzQ3ZmFlNTQ4YzViYmZiZTVjYWQwMTEzNDRkIiwiaCI6Im11cm11cjY0In0=";
-
+const ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjNkMDFlYzQ3ZmFlNTQ4YzViYmZiZTVjYWQwMTEzNDRkIiwiaCI6Im11cm11cjY0In0=";
 const RADIUS_KM = 5;
 
 // Types
@@ -45,9 +29,35 @@ type OverpassElement = {
   tags?: { [key: string]: string };
 };
 
-type ArtisanShop = { latitude: number; longitude: number; name: string; img?: string };
+type ArtisanShop = { 
+  latitude: number; 
+  longitude: number; 
+  name: string; 
+  img?: string;
+};
 
-type Destination = { _id: string; name: string; coordinates: { latitude: number; longitude: number } };
+type Destination = { 
+  _id: string; 
+  name: string; 
+  coordinates: { 
+    latitude: number; 
+    longitude: number; 
+  };
+};
+
+type RouteResponse = {
+  features: Array<{
+    geometry: {
+      coordinates: Array<[number, number]>;
+    };
+    properties: {
+      summary: {
+        distance: number;
+        duration: number;
+      };
+    };
+  }>;
+};
 
 // Récupération boutiques artisanales
 async function fetchArtisanShops(lat: number, lng: number, radiusKm: number): Promise<ArtisanShop[]> {
@@ -71,7 +81,7 @@ async function fetchArtisanShops(lat: number, lng: number, radiusKm: number): Pr
       latitude: coords[0],
       longitude: coords[1],
       name: el.tags?.name || "Boutique artisanale",
-      img: el.tags?.image || "/fallback.png", // fallback image si aucune image
+      img: el.tags?.image || "/fallback.png",
     };
   });
 }
@@ -83,18 +93,28 @@ export default function ItinerairePage() {
   const [distance, setDistance] = useState<number | null>(null);
   const [duration, setDuration] = useState<number | null>(null);
   const [artisanShops, setArtisanShops] = useState<ArtisanShop[]>([]);
+  const [isClient, setIsClient] = useState(false);
 
-  // Position utilisateur
+  // Check if we're on the client
   useEffect(() => {
-    if (navigator.geolocation) {
+    setIsClient(true);
+  }, []);
+
+  // Position utilisateur (client-side only)
+  useEffect(() => {
+    if (isClient && typeof navigator !== 'undefined' && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((pos) => {
         setUserPos([pos.coords.latitude, pos.coords.longitude]);
       });
     }
-  }, []);
+  }, [isClient]);
 
   // Liste destinations depuis Convex
-  const { results: destinations, status } = usePaginatedQuery(api.queries.sites.listSites, {}, { initialNumItems: 20 });
+  const { results: destinations, status } = usePaginatedQuery(
+    api.queries.sites.listSites, 
+    {}, 
+    { initialNumItems: 20 }
+  );
 
   // Récupération boutiques artisanales dès que destination change
   useEffect(() => {
@@ -116,10 +136,16 @@ export default function ItinerairePage() {
     try {
       const res = await fetch(`https://api.openrouteservice.org/v2/directions/driving-car/geojson`, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: ORS_API_KEY },
-        body: JSON.stringify({ coordinates: coordsList.map(([lat, lng]) => [lng, lat]) }),
+        headers: { 
+          "Content-Type": "application/json", 
+          Authorization: ORS_API_KEY 
+        },
+        body: JSON.stringify({ 
+          coordinates: coordsList.map(([lat, lng]) => [lng, lat]) 
+        }),
       });
-      const data = await res.json();
+      
+      const data: RouteResponse = await res.json();
 
       if (!data.features || data.features.length === 0) {
         console.error("Aucun itinéraire trouvé !");
@@ -132,6 +158,7 @@ export default function ItinerairePage() {
       const coords: [number, number][] = data.features[0].geometry.coordinates.map(
         ([lng, lat]: [number, number]) => [lat, lng]
       );
+      
       setRoute(coords);
       setDistance(data.features[0].properties.summary.distance);
       setDuration(data.features[0].properties.summary.duration);
@@ -142,6 +169,18 @@ export default function ItinerairePage() {
       setDuration(null);
     }
   };
+
+  if (!isClient) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <div className="flex-1 pt-44 px-6 md:px-20 flex items-center justify-center">
+          <p>Chargement...</p>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -182,11 +221,12 @@ export default function ItinerairePage() {
           <button
             className="mt-4 px-4 py-2 bg-green-800 text-white cursor-pointer rounded shadow hover:opacity-80"
             onClick={fetchRoute}
+            disabled={!userPos || !selectedSite}
           >
-            Générer l’itinéraire
+            Générer l&rsquo;itinéraire
           </button>
 
-          {distance && duration && (
+          {distance !== null && duration !== null && (
             <div className="mt-4 p-3 bg-white rounded shadow space-y-2">
               <p>
                 <strong>Distance totale:</strong> {(distance / 1000).toFixed(2)} km
@@ -199,40 +239,12 @@ export default function ItinerairePage() {
         </div>
 
         <div className="md:w-2/3 h-[60vh] md:h-auto z-10">
-          <MapContainer center={userPos || [6.37, 2.39]} zoom={12} style={{ height: "100%", width: "100%" }}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="© OpenStreetMap" />
-
-            {userPos && (
-              <Marker position={userPos} icon={markerIcon}>
-                <Popup>Votre position</Popup>
-              </Marker>
-            )}
-
-            {selectedSite && (
-              <Marker position={[selectedSite.coordinates.latitude, selectedSite.coordinates.longitude]} icon={markerIcon}>
-                <Popup>{selectedSite.name}</Popup>
-              </Marker>
-            )}
-
-            {route.length > 1 && <Polyline positions={route} color="blue" />}
-
-            {artisanShops.map((shop, idx) => (
-              <Marker key={idx} position={[shop.latitude, shop.longitude]} icon={artisanMarkerIcon}>
-                <Popup>
-                  <div className="flex flex-col items-center">
-                    <strong>{shop.name}</strong>
-                    {/* <Image
-                      src={shop.img!}
-                      alt={shop.name}
-                      width={100}
-                      height={100}
-                      className="w-24 h-24 object-cover mt-2 rounded"
-                    /> */}
-                  </div>
-                </Popup>
-              </Marker>
-            ))}
-          </MapContainer>
+          <MapComponent 
+            userPos={userPos}
+            selectedSite={selectedSite}
+            route={route}
+            artisanShops={artisanShops}
+          />
         </div>
       </div>
 

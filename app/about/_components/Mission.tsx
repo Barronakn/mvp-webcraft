@@ -23,16 +23,18 @@ export default function Mission({title}: MissionProps) {
   }, []);
 
   useEffect(() => {
+    const currentRef = countersRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setCountersVisible(true);
       },
       { threshold: 0.5 }
     );
-
-    if (countersRef.current) observer.observe(countersRef.current);
+  
+    if (currentRef) observer.observe(currentRef);
+    
     return () => {
-      if (countersRef.current) observer.unobserve(countersRef.current);
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, []);
 
@@ -62,10 +64,10 @@ export default function Mission({title}: MissionProps) {
           <div className="space-y-6 mt-4">
             <p className="text-lg md:text-xl">
               Bénin Vibrations est né de la passion de faire rayonner le patrimoine culturel béninois.
-              Nous connectons les voyageurs du monde entier avec l'authenticité du Bénin, ses traditions millénaires et ses artisans talentueux.
+              Nous connectons les voyageurs du monde entier avec l&lsquo;authenticité du Bénin, ses traditions millénaires et ses artisans talentueux.
             </p>
             <p className="text-lg md:text-xl">
-              Chaque itinéraire que nous proposons est une invitation à découvrir l'âme véritable du Bénin,
+              Chaque itinéraire que nous proposons est une invitation à découvrir l&lsquo;âme véritable du Bénin,
               loin des sentiers battus, au plus près des communautés locales.
             </p>
           </div>
