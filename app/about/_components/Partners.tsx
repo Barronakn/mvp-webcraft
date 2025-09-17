@@ -18,9 +18,9 @@ export default function Partners({ title = "Nos Partenaires", partners }: Partne
         {title}
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 items-center">
         {partners.map((partner, i) => (
-          <div key={i} className="flex justify-center">
+          <div key={i} className="flex justify-center items-center">
             {partner.url ? (
               <a href={partner.url} target="_blank" rel="noopener noreferrer">
                 <Image
