@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`antialiased`}>
         <ConvexClientProvider>
-          <Providers> <ScrollbarWrapper>{children}</ScrollbarWrapper> </Providers>
+          <Providers> {children} </Providers>
         </ConvexClientProvider>
       </body>
     </html>
