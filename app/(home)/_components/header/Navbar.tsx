@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
 
         <Button
-          onClick={() => router.push('/explore')}
+          onClick={() => router.push('/site')}
           className="!px-1 md:!px-2 !py-2 lg:!px-4 transition bg-gray-200 rounded-md font-semibold"
         >
           Explorer vos destinations
